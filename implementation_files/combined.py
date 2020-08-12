@@ -19,8 +19,5 @@ def readCsvFile(path, dm = ';'):
                 for x in range(0, len(row)):
                     returnDict['columns'][returnDict['columnList'][x]].append(row[x])
 
-    print(returnDict['columns'].keys())
-    print(returnDict['columns']['Desember'])
-
     return returnDict
                 
