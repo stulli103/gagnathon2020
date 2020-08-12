@@ -1,0 +1,9 @@
+## There are three available options. 
+## 1. CSV file (Create a csv file with your result)
+## 2. DB (Makes the create table statement for you and all of the insert scripts)
+## 3. NOSQL (Creates a nosql dataset for you)
+## The top line that does not include the sign, ##, will be the chosen option
+
+CSV    
+## DB
+## NOSQL

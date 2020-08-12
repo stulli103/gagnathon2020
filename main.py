@@ -1,6 +1,7 @@
-import implementation_files.combined as combined
+# import implementation_files.combined as combined
+import implementation_files.settings as settings
 
 def main():
-    combined.readCsvFile('csv_files/fjarmal/gjold-rikisjoths-eftir-manuthi-2015.csv')
+    settings.implement()
 
 main()

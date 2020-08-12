@@ -1,6 +1,6 @@
 import csv
 
-def readCsvFile(path, dm = ';'):
+def readCsvFile(path, dm):
     returnDict = {
         'columnList': [],
         'columns': {}
@@ -21,3 +21,56 @@ def readCsvFile(path, dm = ';'):
 
     return returnDict
                 
+def readPath(path):
+    lineList = []
+
+    for line in open(path, 'r', encoding="utf8"):
+        lineList.append(line)
+
+    return lineList
+
+def getSingleSetting(listOfLines, setting):
+    lineList = []
+    startAdding = False
+
+    for line in listOfLines:
+        if startAdding == True:
+            lineList.append(line)
+
+        if setting in line:
+            startAdding = not startAdding
+
+    return lineList[:-1]
+
+def getSingleSettingAsString(listOfLines, setting):
+    returnString = ''
+
+    startAdding = False
+
+    for line in listOfLines:
+        if startAdding == True:
+            if setting not in line:
+                returnString = returnString + line
+
+        if setting in line:
+            startAdding = not startAdding
+
+    return returnString.strip()
+
+def getMultipleSettings(listOfLines, setting):
+    returnList = []
+    
+    lineList = []
+    startAdding = False
+
+    for line in listOfLines:
+        if startAdding == True:
+            lineList.append(line)
+
+        if setting in line:
+            if startAdding == True:
+                returnList.append(lineList[:-1])
+                lineList = []
+            startAdding = not startAdding
+
+    return returnList

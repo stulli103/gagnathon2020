@@ -1,0 +1,44 @@
+###Files
+    ###File
+        ###Path -- Required
+            fjarmal/gjold-rikisjoths-eftir-manuthi-2015.csv
+        ###Path
+        ###Delimeter -- Required
+            ;
+        ###Delimeter
+        ###ChooseColumns -- Required
+            ###Column -- Required
+                ###Name -- Required (Must be the same as an existing column in the dataset)
+                    Desember
+                ###Name
+                ###NewName
+                    Desember2015
+                ###NewName
+                ###WhereClause
+
+                ###WhereClause
+            ###Column
+        ###ChooseColumns
+    ###File
+    ###File
+        ###Path -- Required
+            fjarmal/gjoldeftirmanudi2014.csv
+        ###Path
+        ###Delimeter -- Required
+            ;
+        ###Delimeter
+        ###ChooseColumns -- Required
+            ###Column -- Required
+                ###Name -- Required (Must be the same as an existing column in the dataset)
+                    Desember
+                ###Name
+                ###NewName
+                    Desember2014
+                ###NewName
+                ###WhereClause
+
+                ###WhereClause
+            ###Column
+        ###ChooseColumns
+    ###File
+###Files
