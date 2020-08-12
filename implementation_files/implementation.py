@@ -28,6 +28,13 @@ def playWithColumns(columnList, dataDict):
             print("Hence, the program will now quit")
             quit()
 
+def addSeperationForDebugReasons():
+    print()
+    print()
+    print()
+    print()
+    print()
+
 def returnDataSet(lines):
     path = combined.getSingleSettingAsString(lines, constants.PATH_SETTING)
     delimeter = combined.getSingleSettingAsString(lines, constants.DELIMETER_SETTING)
@@ -37,11 +44,10 @@ def returnDataSet(lines):
 
     playWithColumns(columnList, dataDict)
 
-    print()
-    print()
-    print()
-    print()
-    print()
+
+    # Remove later on
+    addSeperationForDebugReasons()
+
 
 
     
