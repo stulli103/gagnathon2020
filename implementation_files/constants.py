@@ -2,7 +2,7 @@ PATHTOFILE = './setting_files/files.txt'
 
 FILEFOLDER = 'csv_files'
 
-# Implemtation settings
+# Implementation settings
 FILES_SETTING = '###Files'
 FILE_SETTING = '###File'
 PATH_SETTING = '###Path'
