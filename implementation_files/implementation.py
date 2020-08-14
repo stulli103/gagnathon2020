@@ -15,14 +15,65 @@ def getColumnList(lines):
     
     return columnList
 
-def playWithColumns(columnList, dataDict):
+def getWhereClauseList(lines):
+    returnList = []
+
+    clauseSetting = combined.getSingleSetting(lines, constants.WHERECLAUSE_SETTING)
+    clauseList = combined.getMultipleSettings(clauseSetting, constants.CLAUSE_SETTING)
+
+    for clause in clauseList:
+        returnList.append({
+            'column': combined.getSingleSettingAsString(clause, constants.COLUMN_SETTING),
+            'equal': combined.getSingleSettingAsString(clause, constants.EQUAL_SETTING)
+        })
+    
+    return returnList
+
+def getIndexListHelper(dataDict, clause, inputList):
+    returnList = []
+
+    for x in range(0, len(dataDict['columns'][clause['column']])):
+        if len(inputList) == 0:
+            if dataDict['columns'][clause['column']][x] == clause['equal']:
+                returnList.append(x)
+        else:
+            if dataDict['columns'][clause['column']][x] == clause['equal'] and x in inputList:
+                returnList.append(x)
+
+    return returnList
+
+def getIndexList(dataDict, clauseList):
+    indexList = []
+    if len(clauseList) > 0:
+        for clause in clauseList:
+            if clause['column'] in dataDict['columnList']:
+                indexList = getIndexListHelper(dataDict, clause, indexList)
+
+    return indexList
+        
+
+def getDataSet(dataDict, name, clauseList):
+    indexList = getIndexList(dataDict, clauseList)
+
+    if len(indexList) == 0:
+        return dataDict['columns'][name]
+    else:
+        returnList = []
+        for x in range(0, len(dataDict['columns'][name])):
+            if x in indexList:
+                returnList.append(dataDict['columns'][name][x])
+
+        return returnList
+
+
+def playWithColumns(columnList, clauseList, dataDict):
     for column in columnList:
         name = combined.getSingleSettingAsString(column, constants.NAME_SETTING)
         newname = combined.getSingleSettingAsString(column, constants.NEWNAME_SETTING)
         
-        ## Todo -> Add where clause to the mix here
         if name in dataDict['columnList']:
-            print(dataDict['columns'][name])
+            dataSet = getDataSet(dataDict, name, clauseList)
+            print(dataSet)
         else:
             print("The column - " + name + " - could not be found. The settings are wrong in files.txt")
             print("Hence, the program will now quit")
@@ -41,11 +92,12 @@ def returnDataSet(lines):
 
     dataDict = combined.readCsvFile(constants.FILEFOLDER + '/' + path, delimeter)
     columnList = getColumnList(lines)
+    clauseList = getWhereClauseList(lines)
 
-    playWithColumns(columnList, dataDict)
+    playWithColumns(columnList, clauseList, dataDict)
 
 
-    # Remove later on
+    # Comment out later on
     addSeperationForDebugReasons()
 
 

@@ -14,11 +14,34 @@
                 ###NewName
                     Desember2015
                 ###NewName
-                ###WhereClause
-
-                ###WhereClause
+            ###Column
+            ###Column -- Required
+                ###Name -- Required (Must be the same as an existing column in the dataset)
+                    September
+                ###Name
+                ###NewName
+                    September2015
+                ###NewName
             ###Column
         ###ChooseColumns
+        ###WhereClause
+            ###Clause
+                ###Column
+                    Yfirflokkur
+                ###Column
+                ###Equal
+                    Rekstrargjöld
+                ###Equal
+            ###Clause
+            ###Clause 
+                ###Column
+                    Undirflokkur
+                ###Column
+                ###Equal
+                    Laun
+                ###Equal
+            ###Clause
+        ###WhereClause
     ###File
     ###File
         ###Path -- Required
@@ -35,10 +58,25 @@
                 ###NewName
                     Desember2014
                 ###NewName
-                ###WhereClause
-
-                ###WhereClause
+            ###Column
+            ###Column -- Required
+                ###Name -- Required (Must be the same as an existing column in the dataset)
+                    September
+                ###Name
+                ###NewName
+                    September2014
+                ###NewName
             ###Column
         ###ChooseColumns
+        ###WhereClause
+            ###Clause
+                ###Column
+                    Yfirflokkur
+                ###Column
+                ###Equal
+                    Rekstargjöld
+                ###Equal
+            ###Clause
+        ###WhereClause
     ###File
 ###Files
