@@ -24,24 +24,6 @@
                 ###NewName
             ###Column
         ###ChooseColumns
-        ###WhereClause
-            ###Clause
-                ###Column
-                    Yfirflokkur
-                ###Column
-                ###Equal
-                    Rekstrargjöld
-                ###Equal
-            ###Clause
-            ###Clause 
-                ###Column
-                    Undirflokkur
-                ###Column
-                ###Equal
-                    Laun
-                ###Equal
-            ###Clause
-        ###WhereClause
     ###File
     ###File
         ###Path -- Required

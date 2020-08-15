@@ -66,18 +66,29 @@ def getDataSet(dataDict, name, clauseList):
         return returnList
 
 
-def playWithColumns(columnList, clauseList, dataDict):
-    for column in columnList:
-        name = combined.getSingleSettingAsString(column, constants.NAME_SETTING)
-        newname = combined.getSingleSettingAsString(column, constants.NEWNAME_SETTING)
-        
+def setupDataResult(columnList, clauseList, dataDict):
+    returnList = []
+
+    for x in range(len(columnList)):
+        dict = {}
+        name = combined.getSingleSettingAsString(columnList[x], constants.NAME_SETTING)
+        newname = combined.getSingleSettingAsString(columnList[x], constants.NEWNAME_SETTING)
+        if newname == '' or newname is None:
+            newname = name + "_" + str(x + 1)
+
         if name in dataDict['columnList']:
             dataSet = getDataSet(dataDict, name, clauseList)
-            print(dataSet)
+            dict['columnName'] = newname
+            dict['dataset'] = dataSet
+            returnList.append(dict)
+            dict = {}
+
         else:
             print("The column - " + name + " - could not be found. The settings are wrong in files.txt")
             print("Hence, the program will now quit")
             quit()
+
+    return returnList
 
 def addSeperationForDebugReasons():
     print()
@@ -94,11 +105,11 @@ def returnDataSet(lines):
     columnList = getColumnList(lines)
     clauseList = getWhereClauseList(lines)
 
-    playWithColumns(columnList, clauseList, dataDict)
+    dataResult = setupDataResult(columnList, clauseList, dataDict)
+    return dataResult
 
 
-    # Comment out later on
-    addSeperationForDebugReasons()
+    # addSeperationForDebugReasons()
 
 
 
