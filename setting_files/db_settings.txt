@@ -1,0 +1,22 @@
+###TableName
+    GjoldRikissjods
+###TableName
+
+###ColumnTypes
+    ###Column
+        ###Name
+            Desember2015
+        ###Name
+        ###Type
+            Float
+        ###Type
+    ###Column
+    ###Column
+        ###Name
+            September2015
+        ###Name
+        ###Type
+            Float
+        ###Type
+    ###Column
+###ColumnTypes

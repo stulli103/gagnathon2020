@@ -2,18 +2,7 @@ import implementation_files.combined as combined
 import implementation_files.implementation as implementation
 import csv
 
-PATH = 'result/csv_result.csv'
-
-def createSingleDataSet():
-    returnList = []
-
-    fileList = implementation.getFileList()
-    for file in fileList:
-        dataSet = implementation.returnDataSet(file)
-        for point in dataSet:
-            returnList.append(point)
-
-    return returnList
+PATH = 'result/csv/csv_result.csv'
 
 def setupFieldNamesList(dataSet):
     returnList = []
@@ -21,14 +10,6 @@ def setupFieldNamesList(dataSet):
         returnList.append(point['columnName'])
 
     return returnList
-
-def findLongestDataset(dataSet):
-    highestNumber = 0
-    for point in dataSet:
-        if len(point['dataset']) > highestNumber:
-            highestNumber = len(point['dataset'])
-
-    return highestNumber
 
 def setupWriteRowDict(index, dataSet, fieldNames):
     returnDict = {}
@@ -43,7 +24,7 @@ def setupWriteRowDict(index, dataSet, fieldNames):
     return returnDict
 
 def insertDataPoints(writer, dataSet, fieldNames):
-    highestNumber = findLongestDataset(dataSet)
+    highestNumber = combined.findLongestDataset(dataSet)
     for x in range(0, highestNumber):
         writer.writerow(
             setupWriteRowDict(x, dataSet, fieldNames)
@@ -58,7 +39,7 @@ def writeFile(dataSet):
         insertDataPoints(writer, dataSet, fieldNames)
 
 def implement():
-    dataSet = createSingleDataSet()
+    dataSet = combined.createSingleDataSet()
     writeFile(dataSet)
 
     

@@ -1,4 +1,5 @@
 import csv
+import implementation_files.implementation as implementation
 
 def readCsvFile(path, dm):
     returnDict = {
@@ -74,3 +75,22 @@ def getMultipleSettings(listOfLines, setting):
             startAdding = not startAdding
 
     return returnList
+
+def createSingleDataSet():
+    returnList = []
+
+    fileList = implementation.getFileList()
+    for file in fileList:
+        dataSet = implementation.returnDataSet(file)
+        for point in dataSet:
+            returnList.append(point)
+
+    return returnList
+
+def findLongestDataset(dataSet):
+    highestNumber = 0
+    for point in dataSet:
+        if len(point['dataset']) > highestNumber:
+            highestNumber = len(point['dataset'])
+
+    return highestNumber

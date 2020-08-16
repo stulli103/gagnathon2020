@@ -4,6 +4,6 @@
 ## 3. NOSQL (Creates a nosql dataset for you)
 ## The top line that does not include the sign, ##, will be the chosen option
 
-CSV    
-## DB
+## CSV    
+DB
 ## NOSQL

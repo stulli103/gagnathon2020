@@ -1,4 +1,5 @@
 PATHTOFILE = './setting_files/files.txt'
+PATHTODBSETTINGS = './setting_files/db_settings.txt'
 
 FILEFOLDER = 'csv_files'
 
@@ -14,3 +15,9 @@ NEWNAME_SETTING = '###NewName'
 WHERECLAUSE_SETTING = '###WhereClause'
 CLAUSE_SETTING = '###Clause'
 EQUAL_SETTING = '###Equal'
+
+
+# Database settings
+TABLENAME_SETTING = '###TableName'
+COLUMN_TYPES_SETTING = '###ColumnTypes'
+TYPE_SETTING = '###Type'
