@@ -1,7 +1,7 @@
 Create Table [dbo].[GjoldRikissjods](
 	Id [int] Identity(1,1) NOT NULL
-	Desember2015 Float, 
-	September2015 Float, 
-	Desember2014 varchar(max), 
-	September2014 varchar(max),
+	Desember2015 varchar(max), 
+	September2015 varchar(max), 
+	Desember2014 Float, 
+	September2014 Float,
 );
