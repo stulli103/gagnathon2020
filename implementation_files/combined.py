@@ -7,7 +7,7 @@ def readCsvFile(path, dm):
         'columns': {}
     }
 
-    with open(path, encoding="utf8") as csv_file:
+    with open(path, encoding="iso-8859-1") as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=dm)
         fetchColumns = True
         for row in csv_reader:

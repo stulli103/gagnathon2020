@@ -6,7 +6,7 @@ def main():
 
 
 def test():
-    print(combined.readCsvFile('csv_files/orkustofnun/os_jardhiti.csv', '\t'))
+    print(combined.readCsvFile('csv_files/hagstofa_islands/losun_fra_hagkerfi_islands.csv', '\t'))
 
-main()
-# test()
+# main()
+test()

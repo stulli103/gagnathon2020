@@ -1,0 +1,41 @@
+Raf- og rafeindatækjaúrgangur,Ár,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018
+SH.1,Stór Heimilistæki Endurnýting,0.9,0.89,0.88,0.9,0.88,0.86,0.9,1,0.94,1.04
+SH.2,Stór Heimilistæki Endurvinnsla,0.79,0.74,0.74,0.78,0.81,0.79,0.9,1,0.94,1.04
+SH.3,Stór Heimilistæki Endurnýting Markmið,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8,0.8
+SH.4,Stór Heimilistæki Endurvinnsla markmið,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75
+LH.1,Lítil Heimilistæki Endurnýting,0.78,0.76,0.78,0.81,0.32,0.26,0.93,1.01,0.97,0.93
+LH.2,Lítil Heimilistæki Endurvinnsla,0.69,0.6,0.63,0.7,0.28,0.26,0.93,1.01,0.97,0.93
+LH.3,Lítil Heimilistæki Endurnýting Markmið,0.7,0.7,0.7,0.7,0.7,0.7,0.7,0.7,0.7,0.7
+LH.4,Lítil Heimilistæki Endurvinnsla markmið,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+UF.1,Upplýsingatækni og fj. Endurnýting,0.79,0.8,0.82,0.83,0.82,0.84,0.93,0.76,0.8,0.93
+UF.2,Upplýsingatækni og fj. Endurvinnsla,0.69,0.65,0.68,0.69,0.73,0.73,0.93,0.76,0.8,0.93
+UF.3,Upplýsingatækni og fj. Endurnýting Markmið,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75
+UF.4,Upplýsingatækni og fj. Endurvinnsla markmið,0.65,0.65,0.65,0.65,0.65,0.65,0.75,0.75,0.75,0.75
+N.1,Neytendabúnaður Endurnýting,0.77,0.78,0.8,0.77,0.9,0.91,0.93,0.74,0.9,1.15
+N.2,Neytendabúnaður Endurvinnsla,0.67,0.63,0.66,0.63,0.6,0.86,0.93,0.74,0.9,1.15
+N.3,Neytendabúnaður Endurnýting Markmið,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75
+N.4,Neytendabúnaður Endurvinnsla markmið,0.65,0.65,0.65,0.65,0.65,0.65,0.75,0.75,0.75,0.75
+L.1,Ljósabúnaður Endurnýting,0.99,0.46,0.49,0.78,0.82,0.92,0.93,1.02,0.97,0.87
+L.2,Ljósabúnaður Endurvinnsla,0.94,0.37,0.48,0.66,0.72,0.89,0.93,1.02,0.97,0.87
+L.3,Ljósabúnaður Endurnýting Markmið,0.7,0.7,0.7,0.7,0.7,0.7,0.7,0.7,0.7,0.7
+L.4,Ljósabúnaður Endurvinnsla markmið,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+RR.1,Raf- og rafeindatæki Endurnýting,0.77,0.78,0.83,0.84,0.8,0.92,0.94,1,0.96,1.03
+RR.2,Raf- og rafeindatæki Endurvinnsla,0.68,0.63,0.7,0.74,0.72,0.89,0.94,1,0.96,1.03
+RR.3,Raf- og rafeindatæki Endurnýting Markmið,0.7,0.7,0.7,0.7,0.7,0.7,0.7,0.7,0.7,0.7
+RR.4,Raf- og rafeindatæki Endurvinnsla markmið,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+LTI.1,Leikföng og fl Endurnýting,0.99,0.93,0.94,0.94,0.81,0.93,1.13,1.15,0.49,
+LTI.2,Leikföng og fl Endurvinnsla,0.94,0.78,0.88,0.84,0.76,0.93,1.13,1.15,0.49,
+LTI.3,Leikföng og fl Endurnýting Markmið,0.7,0.7,0.7,0.7,0.7,0.7,0.7,0.7,0.7,0.7
+LTI.4,Leikföng og fl Endurvinnsla markmið,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+LAE.1,Lækningatæki Endurnýting,0,0.71,0.78,0.85,0.83,0.95,0.94,1,0.96,1.06
+LAE.2,Lækningatæki Endurvinnsla,0,0.56,0.65,0.72,0.73,0.95,0.94,1,0.96,1.06
+LAE.3,Lækningatæki Endurnýting Markmið,0,0,0,0,0,0,0,0,0,0
+LAE.4,Lækningatæki Endurvinnsla markmið,0,0,0,0,0,0,0,0,0,0
+VE.1,Vöktunar- og eftirlitsæki Endurnýting,0.99,0.94,0.94,0.96,0.81,0.95,0.93,1.02,0.97,0.87
+VE.2,Vöktunar- og eftirlitsæki Endurvinnsla,0.94,0.79,0.83,0.89,0.75,0.95,0.93,1.02,0.97,0.87
+VE.3,Vöktunar- og eftirlitsæki Endurnýting Markmið,0.7,0.7,0.7,0.7,0.7,0.7,0.7,0.7,0.7,0.7
+VE.4,Vöktunar- og eftirlitsæki Endurvinnsla markmið,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+S.1,Sjálfsalar Endurnýting,0,0.88,0.86,0.96,1,1,0.88,1.01,0.94,1.05
+S.2,Sjálfsalar Endurvinnsla,0,0.73,0.81,0.88,0.84,1,088,1.01,0.94,1.05
+S.3,Sjálfsalar Endurnýting Markmið,0,0,0,0,0,0,0,0,0,0
+S.4,Sjálfsalar Endurvinnsla markmið,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75
