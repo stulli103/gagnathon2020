@@ -1,13 +1,18 @@
 import implementation_files.combined as combined
 import implementation_files.constants as constants
+import os
 
 def getFileList():
-    lineList = combined.readPath(constants.PATHTOFILE)
+    returnList = []
 
-    filesSetting = combined.getSingleSetting(lineList, constants.FILES_SETTING)
-    fileList = combined.getMultipleSettings(filesSetting, constants.FILE_SETTING)
+    fileList = os.listdir(constants.PATHTOFILES)
+    for file in fileList:
+        lineList = combined.readPath(constants.PATHTOFILES + file)
+        returnList.append(
+            lineList
+        )
 
-    return fileList
+    return returnList
 
 def getColumnList(lines):
     columnsSetting = combined.getSingleSetting(lines, constants.CHOOSE_COLUMNS_SETTING)
@@ -108,8 +113,6 @@ def returnDataSet(lines):
     dataResult = setupDataResult(columnList, clauseList, dataDict)
     return dataResult
 
-
-    # addSeperationForDebugReasons()
 
 
 

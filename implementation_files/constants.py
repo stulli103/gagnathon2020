@@ -1,3 +1,4 @@
+PATHTOFILES = './setting_files/files/'
 PATHTOFILE = './setting_files/files.txt'
 PATHTODBSETTINGS = './setting_files/db_settings.txt'
 

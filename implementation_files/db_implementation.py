@@ -106,7 +106,6 @@ def addValuesToDataSet(dataSet, index, colList):
 
 def insertDataset(dataSet, tableName, colList):
     highestNumber = combined.findLongestDataset(dataSet)
-    print(highestNumber)
 
     f = open(INSERTSTATEMENTSPATH, 'w+')
     for x in range(0, highestNumber):

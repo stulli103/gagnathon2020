@@ -1,0 +1,34 @@
+###Path -- Required
+    fjarmal/gjoldeftirmanudi2014.csv
+###Path
+###Delimeter -- Required
+    ;
+###Delimeter
+###ChooseColumns -- Required
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            Desember
+        ###Name
+        ###NewName
+            Desember2014
+        ###NewName
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            September
+        ###Name
+        ###NewName
+            September2014
+        ###NewName
+    ###Column
+###ChooseColumns
+###WhereClause
+    ###Clause
+        ###Column
+            Yfirflokkur
+        ###Column
+        ###Equal
+            Rekstargjöld
+        ###Equal
+    ###Clause
+###WhereClause
