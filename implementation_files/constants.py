@@ -1,8 +1,8 @@
-PATHTOFILES = './setting_files/files/'
-PATHTOFILE = './setting_files/files.txt'
+PATHTOFILES = './setting_files/files_to_run/'
 PATHTODBSETTINGS = './setting_files/db_settings.txt'
 
 FILEFOLDER = 'csv_files'
+
 
 # Implementation settings
 FILES_SETTING = '###Files'

@@ -26,7 +26,7 @@ The available settings the user can set in db_settings.txt are:
     Example of usage  
     ```
     ###ColumnTypes
-        ###Column
+        ###Column -> First column setting
             ###Name -> The name of the column
                 Urgangur2018
             ###Name
@@ -34,7 +34,7 @@ The available settings the user can set in db_settings.txt are:
                 Float
             ###Type
         ###Column
-        ###Column
+        ###Column -> Second column setting
             ###Name
                 Urgangur2017
             ###Name
@@ -44,5 +44,7 @@ The available settings the user can set in db_settings.txt are:
         ###Column
     ###ColumnTypes
     ```
+
+3. 
 
 
