@@ -20,9 +20,9 @@ The available settings the user can set in db_settings.txt are:
     ```
 
 2.  ###ColumnTypes  
-    This setting says the program that inside of this setting are multiple Column declarations where the user can set the type value of each column
+    This setting says the program that inside of this setting are multiple Column declarations where the user can set the type value of each column  
     Each Column declaration has its own setting called ###Column  
-    By default each column that is not represented in the ColumnTypes setting is varchar(max)  
+    By default each column that is not represented in the ColumnTypes setting is given the value varchar(max)  
     Example of usage  
     ```
     ###ColumnTypes
