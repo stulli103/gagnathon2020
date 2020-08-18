@@ -63,6 +63,16 @@ There are a lot of available settings available in the files located int the fol
     ###Path
     ```
 
+2. ###Delimeter  
+    This setting declares what delimeter the .csv file the path settings uses to split the dataset  
+    This setting is required in each file 
+    Example of usage
+    ```
+    ###Delimeter -- Required
+        ,
+    ###Delimeter
+    ```
+
 Here is an example of how one of those files work
 ```
 ###Path -- Required
