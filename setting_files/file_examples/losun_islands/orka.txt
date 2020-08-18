@@ -1,0 +1,42 @@
+###Path -- Required
+    losun_islands/orka.csv
+###Path
+###Delimeter -- Required
+    ,
+###Delimeter
+###ChooseColumns -- Required
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            2018
+        ###Name
+        ###NewName
+            Orka2018
+        ###NewName
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            2017
+        ###Name
+        ###NewName
+            Orka2017
+        ###NewName
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            2016
+        ###Name
+        ###NewName
+            Orka2016
+        ###NewName
+    ###Column
+###ChooseColumns
+###WhereClause
+    ###Clause
+        ###Column
+            ORKA
+        ###Column
+        ###Equal
+            Samtals
+        ###Equal
+    ###Clause
+###WhereClause

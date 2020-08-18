@@ -79,7 +79,7 @@ def setupDataResult(columnList, clauseList, dataDict):
         name = combined.getSingleSettingAsString(columnList[x], constants.NAME_SETTING)
         newname = combined.getSingleSettingAsString(columnList[x], constants.NEWNAME_SETTING)
         if newname == '' or newname is None:
-            newname = name + "_" + str(x + 1)
+            newname = name
 
         if name in dataDict['columnList']:
             dataSet = getDataSet(dataDict, name, clauseList)

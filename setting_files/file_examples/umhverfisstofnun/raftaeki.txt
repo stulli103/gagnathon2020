@@ -1,0 +1,53 @@
+###Path -- Required
+    umhverfisstofnun/raftaeki.csv
+###Path
+###Delimeter -- Required
+    ,
+###Delimeter
+###ChooseColumns -- Required
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            Urgangur
+        ###Name
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            2009
+        ###Name
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            2010
+        ###Name
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            2011
+        ###Name
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            2012
+        ###Name
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            2013
+        ###Name
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            2014
+        ###Name
+    ###Column
+###ChooseColumns
+###WhereClause
+    ###Clause
+        ###Column
+            Týpa
+        ###Column
+        ###Equal
+            Stór Heimilistæki Endurnýting
+        ###Equal
+    ###Clause
+###WhereClause

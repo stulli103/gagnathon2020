@@ -1,0 +1,38 @@
+###Path -- Required
+    orkustofnun/os_eldsneyti.csv
+###Path
+###Delimeter -- Required
+    ,
+###Delimeter
+###ChooseColumns -- Required
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            EldsnTegNr
+        ###Name
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            EldsnTegHeiti
+        ###Name
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            Notkun
+        ###Name
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            EldsnTegNr
+        ###Name
+    ###Column
+###ChooseColumns
+###WhereClause
+    ###Clause
+        ###Column
+            NotFlHeiti
+        ###Column
+        ###Equal
+            Landsvirkjun
+        ###Equal
+    ###Clause
+###WhereClause

@@ -1,0 +1,33 @@
+###Path -- Required
+    orkustofnun/os_vindorka.csv
+###Path
+###Delimeter -- Required
+    ,
+###Delimeter
+###ChooseColumns -- Required
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            Eigandi
+        ###Name
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            Virkjun
+        ###Name
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            frumorka
+        ###Name
+    ###Column
+###ChooseColumns
+###WhereClause
+    ###Clause
+        ###Column
+            Ar
+        ###Column
+        ###Equal
+            2014
+        ###Equal
+    ###Clause
+###WhereClause

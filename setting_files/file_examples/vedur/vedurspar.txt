@@ -1,0 +1,43 @@
+###Path -- Required
+    vedur/vedurspar.csv
+###Path
+###Delimeter -- Required
+    ,
+###Delimeter
+###ChooseColumns -- Required
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            Greiningartimi
+        ###Name
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            Spatimi
+        ###Name
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            Vindhradi (m/s)
+        ###Name
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            Vindatt
+        ###Name
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            Hiti
+        ###Name
+    ###Column
+###ChooseColumns
+###WhereClause
+    ###Clause
+        ###Column
+            Nafn
+        ###Column
+        ###Equal
+            Reykjavík
+        ###Equal
+    ###Clause
+###WhereClause

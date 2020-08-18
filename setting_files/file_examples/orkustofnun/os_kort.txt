@@ -1,0 +1,33 @@
+###Path -- Required
+    orkustofnun/os_kort.csv
+###Path
+###Delimeter -- Required
+    ,
+###Delimeter
+###ChooseColumns -- Required
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            StadurTekid
+        ###Name
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            StadurUnnid
+        ###Name
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            Ar
+        ###Name
+    ###Column
+###ChooseColumns
+###WhereClause
+    ###Clause
+        ###Column
+            StadurTekid
+        ###Column
+        ###Equal
+            Berufjörður
+        ###Equal
+    ###Clause
+###WhereClause

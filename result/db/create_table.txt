@@ -1,7 +1,3 @@
 Create Table [dbo].[LosunIslands](
-	Id [int] Identity(1,1) NOT NULL
-	thus.tonn varchar(max), 
-	Idnadur2018 Float, 
-	Idnadur2017 Float, 
-	Idnadur2016 Float,
+	Id [int] Identity(1,1) NOT NUL
 );

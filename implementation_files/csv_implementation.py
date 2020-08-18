@@ -31,7 +31,7 @@ def insertDataPoints(writer, dataSet, fieldNames):
         )
 
 def writeFile(dataSet):
-    with open(PATH, 'w', newline='') as file:
+    with open(PATH, 'w', newline='', encoding='utf-8') as file:
         fieldNames = setupFieldNamesList(dataSet)
         writer = csv.DictWriter(file, fieldnames=fieldNames)
         writer.writeheader()

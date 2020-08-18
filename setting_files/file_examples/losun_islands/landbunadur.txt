@@ -1,34 +1,42 @@
 ###Path -- Required
-    fjarmal/gjoldeftirmanudi2014.csv
+    losun_islands/landbunadur.csv
 ###Path
 ###Delimeter -- Required
-    ;
+    ,
 ###Delimeter
 ###ChooseColumns -- Required
     ###Column -- Required
         ###Name -- Required (Must be the same as an existing column in the dataset)
-            Desember
+            2018
         ###Name
         ###NewName
-            Desember2014
+            Landbunadur2018
         ###NewName
     ###Column
     ###Column -- Required
         ###Name -- Required (Must be the same as an existing column in the dataset)
-            September
+            2017
         ###Name
         ###NewName
-            September2014
+            Landbunadur2017
+        ###NewName
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            2016
+        ###Name
+        ###NewName
+            Landbunadur2016
         ###NewName
     ###Column
 ###ChooseColumns
 ###WhereClause
     ###Clause
         ###Column
-            Yfirflokkur
+            LANDBÚNAÐUR
         ###Column
         ###Equal
-            Rekstargjöld
+            Samtals
         ###Equal
     ###Clause
 ###WhereClause

@@ -5,7 +5,7 @@
 ###ColumnTypes
     ###Column
         ###Name
-            Idnadur2018
+            Urgangur2018
         ###Name
         ###Type
             Float
@@ -13,7 +13,7 @@
     ###Column
     ###Column
         ###Name
-            Idnadur2017
+            Urgangur2017
         ###Name
         ###Type
             Float
@@ -21,7 +21,7 @@
     ###Column
     ###Column
         ###Name
-            Idnadur2016
+            Urgangur2016
         ###Name
         ###Type
             Float

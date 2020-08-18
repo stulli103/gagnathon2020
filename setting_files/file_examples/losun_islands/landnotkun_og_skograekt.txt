@@ -1,0 +1,42 @@
+###Path -- Required
+    losun_islands/landnotkun_og_skograekt.csv
+###Path
+###Delimeter -- Required
+    ,
+###Delimeter
+###ChooseColumns -- Required
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            2018
+        ###Name
+        ###NewName
+            landNotkunOgSkograekt2018
+        ###NewName
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            2017
+        ###Name
+        ###NewName
+            landNotkunOgSkograekt2017
+        ###NewName
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            2016
+        ###Name
+        ###NewName
+            landNotkunOgSkograekt2016
+        ###NewName
+    ###Column
+###ChooseColumns
+###WhereClause
+    ###Clause
+        ###Column
+            Landnotkun og skógrækt
+        ###Column
+        ###Equal
+            Samtals
+        ###Equal
+    ###Clause
+###WhereClause

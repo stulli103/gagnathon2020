@@ -22,9 +22,6 @@ def csv():
 def db():
     db_implementation.implement()
 
-def nosql():
-    nosql_implementation.implement()
-
 def implement():
     implementation = readImplementationFile()
 
@@ -34,6 +31,5 @@ def implement():
         impFunctions = {
             'CSV': csv,
             'DB': db,
-            'NOSQL': nosql
         }
         impFunctions.get(implementation)()

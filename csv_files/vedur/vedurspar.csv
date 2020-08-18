@@ -1,5 +1,5 @@
-Nafn,Númer,Greiningartími,Spátími,Villa,Vindhraði (m/s),Vindátt,Hiti (°C),Veður
-Reykjavík,1,8/17/2020 18:00,8/18/2020 0:00,,1,NV,12,Alskýjað
+Nafn,Númer,Greiningartimi,Spatimi,Villa,Vindhradi (m/s),Vindatt,Hiti,Veður
+Reykjavík,1,8/17/2020 18:00,8/18/2020,,1,NV,12,Alskýjað
 Reykjavík,1,8/17/2020 18:00,8/18/2020 1:00,,1,VNV,12,Alskýjað
 Reykjavík,1,8/17/2020 18:00,8/18/2020 2:00,,2,V,12,Alskýjað
 Reykjavík,1,8/17/2020 18:00,8/18/2020 3:00,,2,SV,12,Alskýjað

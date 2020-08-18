@@ -64,7 +64,7 @@ def createTableStatement(dataSet, tableName, colList):
     createTable = createTable[:-1] + '\n'
     createTable = createTable + ');'
 
-    f = open(CREATETABLEPATH, 'w+')
+    f = open(CREATETABLEPATH, 'w+', encoding='utf-8')
     f.write(createTable)
 
 def addColumnsToDataSet(colList):
@@ -93,7 +93,10 @@ def addValuesToDataSet(dataSet, index, colList):
     for point in dataSet:
         if len(point['dataset']) > index:
             if columnsIsOfStringType(point['columnName'], colList):
-                returnString = returnString + "'" + point['dataset'][index] + "', "
+                if point['dataset'][index] == 'NULL':
+                    returnString = returnString + "Null, "
+                else:
+                    returnString = returnString + "'" + point['dataset'][index] + "', "
             else:
                 returnString = returnString + point['dataset'][index] + ", "
         else:
@@ -107,7 +110,7 @@ def addValuesToDataSet(dataSet, index, colList):
 def insertDataset(dataSet, tableName, colList):
     highestNumber = combined.findLongestDataset(dataSet)
 
-    f = open(INSERTSTATEMENTSPATH, 'w+')
+    f = open(INSERTSTATEMENTSPATH, 'w+', encoding='utf-8')
     for x in range(0, highestNumber):
         statement = 'Insert into [dbo].[' + tableName + '] (' + addColumnsToDataSet(colList) + ') values (' + addValuesToDataSet(dataSet, x, colList) + ');\n'
         f.write(statement)
@@ -122,23 +125,6 @@ def implement():
 
     tableName = getTableName(lineList)
     dataSet = combined.createSingleDataSet()
+
     colList = getColumnList(dataSet, lineList)
     writeFile(dataSet, tableName, colList)
-
-
-# CREATE TABLE Persons (
-#     PersonID int,
-#     LastName varchar(255),
-#     FirstName varchar(255),
-#     Address varchar(255),
-#     City varchar(255)
-# );
-
-
-
-# CREATE TABLE [dbo].[ApiResource](
-# 	[Id] [int] IDENTITY(1,1) NOT NULL,
-# 	[Name] [varchar](100) NOT NULL,
-# 	[DisplayName] [varchar](100) NOT NULL,
-# 	[Description] [varchar](max) NOT NULL,
-# 	[Enabled] [varchar](1) NOT NULL

@@ -1,0 +1,33 @@
+###Path -- Required
+    orkustofnun/os_jardhiti.csv
+###Path
+###Delimeter -- Required
+    ,
+###Delimeter
+###ChooseColumns -- Required
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            Vinnslusvaedi
+        ###Name
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            holunr
+        ###Name
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            HeitiHolu
+        ###Name
+    ###Column
+###ChooseColumns
+###WhereClause
+    ###Clause
+        ###Column
+            Eigandi
+        ###Column
+        ###Equal
+            HS Orka
+        ###Equal
+    ###Clause
+###WhereClause

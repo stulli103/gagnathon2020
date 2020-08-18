@@ -1,0 +1,41 @@
+###Path -- Required
+    orkustofnun/os_vatnsafl.csv
+###Path
+###Delimeter -- Required
+    ,
+###Delimeter
+###ChooseColumns -- Required
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            Virkjun
+        ###Name
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            Tala1
+        ###Name
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            Tala2
+        ###Name
+    ###Column
+###ChooseColumns
+###WhereClause
+    ###Clause
+        ###Column
+            Ar
+        ###Column
+        ###Equal
+            2014
+        ###Equal
+    ###Clause
+    ###Clause
+        ###Column
+            Orkustofnun
+        ###Column
+        ###Equal
+            Fallorka
+        ###Equal
+    ###Clause
+###WhereClause

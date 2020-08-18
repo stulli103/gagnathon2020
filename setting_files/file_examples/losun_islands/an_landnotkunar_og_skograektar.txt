@@ -1,0 +1,42 @@
+###Path -- Required
+    losun_islands/an_landnotkunar_og_skograektar.csv
+###Path
+###Delimeter -- Required
+    ,
+###Delimeter
+###ChooseColumns -- Required
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            2018
+        ###Name
+        ###NewName
+            AnLandNotkunarOgSkograektar2018
+        ###NewName
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            2017
+        ###Name
+        ###NewName
+            AnLandNotkunarOgSkograektar2017
+        ###NewName
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            2016
+        ###Name
+        ###NewName
+            AnLandNotkunarOgSkograektar2016
+        ###NewName
+    ###Column
+###ChooseColumns
+###WhereClause
+    ###Clause
+        ###Column
+            Flokkur
+        ###Column
+        ###Equal
+            Samtals
+        ###Equal
+    ###Clause
+###WhereClause
