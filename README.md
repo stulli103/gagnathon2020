@@ -21,7 +21,7 @@ The available settings the user can set in db_settings.txt are:
 
 2.  **###ColumnTypes**  
     This setting says the program that inside of this setting are multiple Column declarations where the user can set the type value of each column  
-    Each Column declaration has its own setting called ###Column  
+    Each Column declaration has its own setting called **###Column**  
     By default each column that is not represented in the ColumnTypes setting is given the value varchar(max)  
     Example of usage  
     ```
@@ -49,18 +49,19 @@ The available settings the user can set in db_settings.txt are:
 The magic of the program happens inside of the folder **files_to_run/**  
 Inside of that folder the user can insert all of the setting text files for the .csv files he wants the program to run on  
 In the folder **file_examples/** there comes a list of already made setting files for various .csv files that are stored in the folder **csv_files/**  
-The name of the setting files in the **files_to_run/** do not matter as the program only reads the declared settings that are written in the files themselves     
+The name of the setting files in the **files_to_run/** do not matter as the program only reads the declared settings that are written in the files themselves  
+All of the csv files the program can run on should be located in the folder **csv_files/**    
 
-Here is an example of one of those files **(vedurspar.txt)**  
+Here is an example of how one of those files work
 ```
-###Path -- Required
+###Path -- Required *(Declares where the .csv file is located inside of the csv_files/ folder)*
     orkustofnun/os_vatnsafl.csv
 ###Path
-###Delimeter -- Required
+###Delimeter -- Required *(Declares what delimeter is used in the program to split the datasets)*
     ,
 ###Delimeter
-###ChooseColumns -- Required
-    ###Column -- Required
+###ChooseColumns -- Required *(Says the program what columns you wish to have in your new dataset)*
+    ###Column -- Required ()
         ###Name -- Required (Must be the same as an existing column in the dataset)
             Virkjun
         ###Name
@@ -69,6 +70,9 @@ Here is an example of one of those files **(vedurspar.txt)**
         ###Name -- Required (Must be the same as an existing column in the dataset)
             Tala1
         ###Name
+        ###NewName
+            MikilvaegTala
+        ###NewName
     ###Column
     ###Column -- Required
         ###Name -- Required (Must be the same as an existing column in the dataset)
