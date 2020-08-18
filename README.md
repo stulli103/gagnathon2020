@@ -9,10 +9,10 @@ One of those is the file implementation.txt where the user of the program choose
 
 Another is the file db_settings.txt and should be used with the Database setting of the first file mentioned above.
 The available settings the user can set in db_settings.txt are: 
-1.  ###TableName\
-    It gives the user the control of deciding what the table name should be\ 
-    If this setting is not set the default setting will be used (Table_23)\
-    Example of usage\
+1.  ###TableName&nbsp;
+    It gives the user the control of deciding what the table name should be&nbsp;
+    If this setting is not set the default setting will be used (Table_23)&nbsp;
+    Example of usage&nbsp;
     ```
     ###TableName
         LosunIslands
