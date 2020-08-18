@@ -141,7 +141,7 @@ There are a lot of available settings available in the files located int the fol
     ```
     The equivalent sql query would be 
     ```
-        select * from something where Ar = 2014 and Orkustofnun = 'Fallorka'
+        select * from ---someTableName--- where Ar = 2014 and Orkustofnun = 'Fallorka'
     ```
         
 
