@@ -46,7 +46,7 @@ The available settings the user can set in db_settings.txt are:
     ```
 
 
-The magic of the program happens inside of the folder **files_to_run/**
+The magic of the program happens inside of the folder **files_to_run/**  
 Inside of that folder the user can insert all of the setting text files for the .csv files he wants the program to run on  
 In the folder file_examples there comes a list of already made setting files for various .csv files that are stored in the folder **csv_files/**    
 
