@@ -52,6 +52,17 @@ In the folder **file_examples/** there comes a list of already made setting file
 The name of the setting files in the **files_to_run/** do not matter as the program only reads the declared settings that are written in the files themselves  
 All of the csv files the program can run on should be located in the folder **csv_files/**    
 
+There are a lot of available settings available in the files located int the folder **files_to_run/**  
+1. ###Path  
+    This setting declares where inside the **csv_files** the file the specific settings that follows is to be found  
+    This setting is required in each file  
+    Example of usage
+    ```
+    ###Path -- Required
+        orkustofnun/os_vatnsafl.csv
+    ###Path
+    ```
+
 Here is an example of how one of those files work
 ```
 ###Path -- Required
@@ -61,7 +72,7 @@ Here is an example of how one of those files work
     ,
 ###Delimeter
 ###ChooseColumns -- Required
-    ###Column -- Required ()
+    ###Column -- Required
         ###Name -- Required (Must be the same as an existing column in the dataset)
             Virkjun
         ###Name
