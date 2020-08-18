@@ -1,4 +1,4 @@
-Create Table [dbo].[Table_23](
+Create Table [dbo].[LosunIslands](
 	Id [int] Identity(1,1) NOT NULL
 	tegund varchar(max), 
 	VF varchar(max), 

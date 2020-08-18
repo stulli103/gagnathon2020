@@ -7,10 +7,11 @@ The program reads all the settings and how it should implement the return result
 
 One of those is the file implementation.txt where the user of the program chooses whether he wishes the program to return a csv file or a database table (good explanation text is to find in the file itself)
 
-Another is the file db_settings.txt and should be used with the Database setting.
-The available settings to control in this file are: 
+Another is the file db_settings.txt and should be used with the Database setting of the first file mentioned above.
+The available settings the user can set in db_settings.txt are: 
 1.  ###TableName
-    It gives the user the control of deciding what the table name should be. If this setting is not set the default setting will be used (Table_23)
+    It gives the user the control of deciding what the table name should be. 
+    If this setting is not set the default setting will be used (Table_23)
     Example of usage
     ###TableName
         LosunIslands
