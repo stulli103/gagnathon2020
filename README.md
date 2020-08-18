@@ -110,7 +110,7 @@ There are a lot of available settings available in the files located int the fol
     This setting allows the user to choose only the data from the .csv file in the path settings that fulfills specific requirements  
     As of now, the only available clause is the equivalence to the **'Where'** command in sql query language but the plan is to have more options in the future    
     This is an optional setting and is therefore not required  
-    Just like the ###ChooseColumns setting, this setting stores a list of all of the clauses the user wants to add to the dataset in the .csv file  which have their own settings  
+    Just like the ChooseColumns setting above, this setting stores a list of all of the clauses the user wants to add to the dataset in the .csv file  which have their own settings  
     -   ###Clause  
         This setting, just like the Column setting above, can be added as often as the user wants to the WhereClause setting  
         This setting stores info about each clause and has it´s own settings  
