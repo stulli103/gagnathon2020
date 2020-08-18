@@ -5,8 +5,8 @@ def main():
     settings.implement()
 
 
-def test():
-    print(combined.readCsvFile('csv_files/hagstofa_islands/losun_fra_hagkerfi_islands.csv', '\t'))
+# def test():
+#     print(combined.readCsvFile('csv_files/hagstofa_islands/losun_fra_hagkerfi_islands.csv', '\t'))
 
-# main()
-test()
+main()
+# test()

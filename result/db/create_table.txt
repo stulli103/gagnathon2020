@@ -1,7 +1,7 @@
-Create Table [dbo].[GjoldRikissjods](
+Create Table [dbo].[LosunIslands](
 	Id [int] Identity(1,1) NOT NULL
-	Desember2015 varchar(max), 
-	September2015 varchar(max), 
-	Desember2014 Float, 
-	September2014 Float,
+	thus.tonn varchar(max), 
+	Idnadur2018 Float, 
+	Idnadur2017 Float, 
+	Idnadur2016 Float,
 );

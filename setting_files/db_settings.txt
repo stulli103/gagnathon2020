@@ -1,11 +1,11 @@
 ###TableName
-    GjoldRikissjods
+    LosunIslands
 ###TableName
 
 ###ColumnTypes
     ###Column
         ###Name
-            Desember2014
+            Idnadur2018
         ###Name
         ###Type
             Float
@@ -13,7 +13,15 @@
     ###Column
     ###Column
         ###Name
-            September2014
+            Idnadur2017
+        ###Name
+        ###Type
+            Float
+        ###Type
+    ###Column
+    ###Column
+        ###Name
+            Idnadur2016
         ###Name
         ###Type
             Float

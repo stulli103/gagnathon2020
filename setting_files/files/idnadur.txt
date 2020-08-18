@@ -1,0 +1,50 @@
+###Path -- Required
+    losun_islands/idnadur.csv
+###Path
+###Delimeter -- Required
+    ,
+###Delimeter
+###ChooseColumns -- Required
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            thus.tonn
+        ###Name
+        ###NewName
+            thus.tonn
+        ###NewName
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            2018
+        ###Name
+        ###NewName
+            Idnadur2018
+        ###NewName
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            2017
+        ###Name
+        ###NewName
+            Idnadur2017
+        ###NewName
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            2016
+        ###Name
+        ###NewName
+            Idnadur2016
+        ###NewName
+    ###Column
+###ChooseColumns
+###WhereClause
+    ###Clause
+        ###Column
+            IÐNAÐUR
+        ###Column
+        ###Equal
+            Málmiðnaður
+        ###Equal
+    ###Clause
+###WhereClause
