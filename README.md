@@ -54,7 +54,7 @@ All of the csv files the program can run on should be located in the folder **cs
 
 Here is an example of how one of those files work
 ```
-###Path -- Required *(Declares where the .csv file is located inside of the csv_files/ folder)*
+###Path -- Required  > (Declares where the .csv file is located inside of the csv_files/ folder)
     orkustofnun/os_vatnsafl.csv
 ###Path
 ###Delimeter -- Required *(Declares what delimeter is used in the program to split the datasets)*
