@@ -1,30 +1,39 @@
 ###TableName
-    LosunIslands
+    OrkustofnunIslands
 ###TableName
 
 ###ColumnTypes
     ###Column
         ###Name
-            Urgangur2018
+            Tala2
         ###Name
         ###Type
-            Float
-        ###Type
-    ###Column
-    ###Column
-        ###Name
-            Urgangur2017
-        ###Name
-        ###Type
-            Float
+            INT
         ###Type
     ###Column
     ###Column
         ###Name
-            Urgangur2016
+            frumorka
         ###Name
         ###Type
-            Float
+            FLOAT
+        ###Type
+    ###Column
+    ###Column
+        ###Name
+            idVirkjun
+        ###Name
+        ###Type
+            INT
+        ###Type
+    ###Column
+    ###Column
+        UppsettAfl
+        ###Name
+            UppsettAfl
+        ###Name
+        ###Type
+            DOUBLE
         ###Type
     ###Column
 ###ColumnTypes

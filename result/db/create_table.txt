@@ -1,8 +1,11 @@
-Create Table [dbo].[LosunIslands](
+Create Table [dbo].[OrkustofnunIslands](
 	Id [int] Identity(1,1) NOT NULL
-	tegund varchar(max), 
-	VF varchar(max), 
-	NV varchar(max), 
-	NE varchar(max), 
-	Samtals varchar(max),
+	VatnsAflsVirkjun varchar(max), 
+	Tala1 varchar(max), 
+	Tala2 INT, 
+	VatnsAflsVirkjun varchar(max), 
+	frumorka FLOAT, 
+	idVirkjun INT, 
+	TegundVirkjunar varchar(max), 
+	UppsettAfl DOUBLE,
 );

@@ -1,0 +1,33 @@
+###Path -- Required
+    orkustofnun/os_virkjanir.csv
+###Path
+###Delimeter -- Required
+    ,
+###Delimeter
+###ChooseColumns -- Required
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            idVirkjun
+        ###Name
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            TegundVirkjunar
+        ###Name
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            UppsettAfl
+        ###Name
+    ###Column
+###ChooseColumns
+###WhereClause
+    ###Clause
+        ###Column
+            Eigandi
+        ###Column
+        ###Equal
+            Landsvirkjun
+        ###Equal
+    ###Clause
+###WhereClause
