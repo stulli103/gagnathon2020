@@ -48,6 +48,50 @@ The available settings the user can set in db_settings.txt are:
 
 The magic of the program happens inside of the folder **files_to_run/**  
 Inside of that folder the user can insert all of the setting text files for the .csv files he wants the program to run on  
-In the folder **file_examples/** there comes a list of already made setting files for various .csv files that are stored in the folder **csv_files/**    
+In the folder **file_examples/** there comes a list of already made setting files for various .csv files that are stored in the folder **csv_files/**  
+The name of the setting files in the **files_to_run/** do not matter as the program only reads the declared settings that are written in the files themselves     
 
-
+Here is an example of one of those files **(vedurspar.txt)**  
+```
+###Path -- Required
+    orkustofnun/os_vatnsafl.csv
+###Path
+###Delimeter -- Required
+    ,
+###Delimeter
+###ChooseColumns -- Required
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            Virkjun
+        ###Name
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            Tala1
+        ###Name
+    ###Column
+    ###Column -- Required
+        ###Name -- Required (Must be the same as an existing column in the dataset)
+            Tala2
+        ###Name
+    ###Column
+###ChooseColumns
+###WhereClause
+    ###Clause
+        ###Column
+            Ar
+        ###Column
+        ###Equal
+            2014
+        ###Equal
+    ###Clause
+    ###Clause
+        ###Column
+            Orkustofnun
+        ###Column
+        ###Equal
+            Fallorka
+        ###Equal
+    ###Clause
+###WhereClause
+```
