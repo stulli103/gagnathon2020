@@ -1,3 +1,8 @@
-Create Table [dbo].[LosunIslands](
-	Id [int] Identity(1,1) NOT NUL
+Create Table [dbo].[Table_23](
+	Id [int] Identity(1,1) NOT NULL
+	tegund varchar(max), 
+	VF varchar(max), 
+	NV varchar(max), 
+	NE varchar(max), 
+	Samtals varchar(max),
 );

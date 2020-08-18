@@ -1,7 +1,6 @@
 import implementation_files.combined as combined
 import implementation_files.csv_implementation as csv_implementation
 import implementation_files.db_implementation as db_implementation
-import implementation_files.nosql_implementation as nosql_implementation
 
 
 IMPLEMENTATIONPATH = './setting_files/implementation.txt'
