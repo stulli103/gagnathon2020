@@ -53,7 +53,7 @@ The name of the setting files in the **files_to_run/** do not matter as the prog
 All of the csv files the program can run on should be located in the folder **csv_files/**    
 
 There are a lot of available settings available in the files located int the folder **files_to_run/**  
-1.  ###Path  
+1.  **###Path**  
     This setting declares where inside the **csv_files** the file the specific settings that follows is to be found  
     This setting is required in each file  
     Example of usage
@@ -63,7 +63,7 @@ There are a lot of available settings available in the files located int the fol
     ###Path
     ```
 
-2.  ###Delimeter  
+2.  **###Delimeter**  
     This setting declares what delimeter the .csv file the path settings uses to split the dataset  
     This setting is required in each file 
     Example of usage
@@ -73,7 +73,7 @@ There are a lot of available settings available in the files located int the fol
     ###Delimeter
     ```
 
-3.  ###ChooseColumns  
+3.  **###ChooseColumns**  
     This setting stores all of the columns the user wants to retrieve from the .csv file and put in his own  
     This setting has other settings for each and every column  
     Every file must have this setting, otherwise there is no point in having the .txt file  
@@ -106,7 +106,7 @@ There are a lot of available settings available in the files located int the fol
     ###ChooseColumns
     ```
 
-4.  ###WhereClause  
+4.  **###WhereClause**  
     This setting allows the user to choose only the data from the .csv file in the path settings that fulfills specific requirements  
     As of now, the only available clause is the equivalence to the **'Where'** command in sql query language but the plan is to have more options in the future    
     Just like the ###ChooseColumns setting, this setting stores a list of all of the clauses the user wants to add to the dataset in the .csv file  
@@ -145,7 +145,7 @@ There are a lot of available settings available in the files located int the fol
     ```
         
 
-Here is an example of how one of those files work
+Here is an example of how one of those files could look like with all of the settings above  
 ```
 ###Path -- Required
     orkustofnun/os_vatnsafl.csv
