@@ -53,7 +53,7 @@ The name of the setting files in the **files_to_run/** do not matter as the prog
 All of the csv files the program can run on should be located in the folder **csv_files/**    
 
 There are a lot of available settings available in the files located int the folder **files_to_run/**  
-1. ###Path  
+1.  ###Path  
     This setting declares where inside the **csv_files** the file the specific settings that follows is to be found  
     This setting is required in each file  
     Example of usage
@@ -63,7 +63,7 @@ There are a lot of available settings available in the files located int the fol
     ###Path
     ```
 
-2. ###Delimeter  
+2.  ###Delimeter  
     This setting declares what delimeter the .csv file the path settings uses to split the dataset  
     This setting is required in each file 
     Example of usage
@@ -71,6 +71,39 @@ There are a lot of available settings available in the files located int the fol
     ###Delimeter -- Required
         ,
     ###Delimeter
+    ```
+
+3.  ###ChooseColumns
+    This setting stores all of the columns the user wants to retrieve from the .csv file and put in his own  
+    This setting has other settings for each and every column  
+    Every file must have this setting, otherwise there is no point in having the .txt file  
+    -   ###Column
+        This setting stores what Column the user wants from the .csv file  
+        The name of the column must be the same as an existing column in the .csv file
+        The user can add as many Column settings as he likes to the text file  
+        Every ChooseColumns setting must have at least one Column setting  
+        -   ###Name
+            Declares the name of the Column in the .csv file that the user wants to extract
+        -   ###NewName
+            The user can rename the column for the new generated file if he likes  
+            By default the setting is the name of the column  
+    Example of usage
+    ```
+    ###ChooseColumns -- Required
+        ###Column -- Required
+            ###Name -- Required (Must be the same as an existing column in the dataset)
+                Tala1
+            ###Name
+            ###NewName
+                MikilvaegTala
+            ###NewName
+        ###Column
+        ###Column -- Required
+            ###Name -- Required (Must be the same as an existing column in the dataset)
+                Tala2
+            ###Name
+        ###Column
+    ###ChooseColumns
     ```
 
 Here is an example of how one of those files work
