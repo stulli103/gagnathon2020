@@ -1,8 +1,11 @@
 # gagnathon2020
+Solution for the competition **Stafrætn gagnaþon fyrir umhverfið 2020**  
 
-This is a python program that can generate custom made database tables and csv files from multiple csv files.
 
-The real magic happens in the setting files of the program.
+
+This is a python program that can generate custom made database tables and csv files from multiple csv files  
+
+The real magic happens in the so-called setting files of the program  
 The program reads all the settings and how it should implement the return result from these files
 
 One of those is the file implementation.txt where the user of the program chooses whether he wishes the program to return a csv file or a database table (good explanation text is to find in the file itself)
