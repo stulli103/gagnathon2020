@@ -192,3 +192,8 @@ Here is an example of how one of those files could look like with all of the set
     ###Clause
 ###WhereClause
 ```
+
+The equivalent sql query of these settings would be
+```
+    select Virkjun, Tala1 as MikilVaegTala, Tala2 from ---someTableName--- where Ar = 2014 and Orkustofnun = 'Fallorka'
+```
