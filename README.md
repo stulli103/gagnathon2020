@@ -13,9 +13,11 @@ The available settings the user can set in db_settings.txt are:
     It gives the user the control of deciding what the table name should be. 
     If this setting is not set the default setting will be used (Table_23)
     Example of usage
+    ```
     ###TableName
         LosunIslands
     ###TableName
+    ```
 
 2.  ###ColumnTypes
     This setting says the program that inside of this setting are multiple Column declarations where the user can set the type value of each column
