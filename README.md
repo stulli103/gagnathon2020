@@ -73,18 +73,18 @@ There are a lot of available settings available in the files located int the fol
     ###Delimeter
     ```
 
-3.  ###ChooseColumns
+3.  ###ChooseColumns  
     This setting stores all of the columns the user wants to retrieve from the .csv file and put in his own  
     This setting has other settings for each and every column  
     Every file must have this setting, otherwise there is no point in having the .txt file  
-    -   ###Column
+    -   ###Column  
         This setting stores what Column the user wants from the .csv file  
         The name of the column must be the same as an existing column in the .csv file
         The user can add as many Column settings as he likes to the text file  
         Every ChooseColumns setting must have at least one Column setting  
-        -   ###Name
+        -   ###Name  
             Declares the name of the Column in the .csv file that the user wants to extract
-        -   ###NewName
+        -   ###NewName  
             The user can rename the column for the new generated file if he likes  
             By default the setting is the name of the column  
     Example of usage
