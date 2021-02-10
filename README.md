@@ -1,5 +1,5 @@
 # gagnathon2020
-Solution for the competition **Stafrætn gagnaþon fyrir umhverfið 2020**  
+Solution for the competition **Stafrænt gagnaþon fyrir umhverfið 2020**  
 
 
 
